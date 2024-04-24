@@ -54,13 +54,14 @@ namespace MvcApiPersonajesExamen.Controllers
 
         public async Task<IActionResult> UpdatePersonaje(int idpersonaje)
         {
-
-
-            return View();
+            Personaje personaje =
+                await this.service.FindPersonajeAsync(idpersonaje);
+            return View(personaje);
         }
         [HttpPost]
         public async Task<IActionResult> UpdatePersonaje(Personaje personaje)
         {
+            await this.service.UpdatePersonajeAsync(personaje.IdPersonaje, personaje.Nombre, personaje.Imagen, personaje.Serie);
             return RedirectToAction("Personajes");
         }
     }

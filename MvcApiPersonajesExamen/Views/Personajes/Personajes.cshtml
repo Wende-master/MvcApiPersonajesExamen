@@ -7,7 +7,7 @@
 <h1>Personajes</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="InsertPersonaje">Crear personaje</a>
 </p>
 <table class="table">
     <thead>
@@ -46,6 +46,9 @@
               <a asp-controller="Personajes" asp-action="Detalles" asp-route-idpersonaje="@item.IdPersonaje">
                   Detalles
               </a>
+                    <a asp-controller="Personajes" asp-action="UpdatePersonaje" asp-route-idpersonaje="@item.IdPersonaje">
+                        Editar
+                    </a>
             </td>
         </tr>
 }
