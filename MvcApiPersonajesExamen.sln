@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApiPersonajesExamen", "MvcApiPersonajesExamen\MvcApiPersonajesExamen.csproj", "{591CABF8-4CE3-47FA-A9A8-21E4335B436A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{591CABF8-4CE3-47FA-A9A8-21E4335B436A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591CABF8-4CE3-47FA-A9A8-21E4335B436A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591CABF8-4CE3-47FA-A9A8-21E4335B436A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591CABF8-4CE3-47FA-A9A8-21E4335B436A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B48FF5F1-366B-46FA-BB2C-34271F62AD15}
+	EndGlobalSection
+EndGlobal
